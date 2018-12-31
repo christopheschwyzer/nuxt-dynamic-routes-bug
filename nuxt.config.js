@@ -41,6 +41,10 @@ module.exports = {
   modules: [
   ],
 
+  generate: {
+    routes: ['/foo/1', '/foo/2']
+  },
+
   /*
   ** Build configuration
   */
@@ -49,7 +53,7 @@ module.exports = {
     ** You can extend webpack config here
     */
     extend(config, ctx) {
-      
+
     }
   }
 }
